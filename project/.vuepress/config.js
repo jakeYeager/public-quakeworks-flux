@@ -1,0 +1,107 @@
+module.exports = {
+  head: [
+    ['link', { rel: 'icon', href: `/logo.png` }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['link', { rel: 'apple-touch-icon', sizes:'180x180', href: `/icons/apple-touch-icon.png` }],
+    ['link', { rel: 'icon', type:'image/png', sizes:'32x32', href: `/icons/favicon-32x32.png` }],
+    ['link', { rel: 'icon', type:'image/png', sizes:'16x16', href: `/icons/favicon-16x16.png` }],
+    ['link', { rel: 'manifest', href: '/icons/site.manifest' }]
+  ],
+  title: 'The Flux', // default page/site title
+  description: 'An analysis of the categorical timestamp values of large seismic event populations against equivalent populations of random and pseudo-random data.', // default page meta tag
+  themeConfig: {
+    plugins: [ '@vuepress/google-analytics',{'ga': 'UA-99759012-14'}],
+    theme: '@vuepress/theme-default',
+    lastUpdated: 'Last Updated',
+    displayAllHeaders: true,
+    sidebar: [
+      {
+        title: 'Main',   // required
+        collapsable: true,  // optional, defaults to true
+        sidebarDepth: 1,
+        children: [
+          'background'
+        ]
+      },
+      {
+        title: '1. Setup',   // required
+        path: '/setup/',      // optional, which should be a absolute path.
+        collapsable: true,  // optional, defaults to true
+        sidebarDepth: 2,    // optional, defaults to 1
+        children: [         // order of appearance...
+          '/setup/testing-the-test',
+          '/setup/parts-of-time',
+          '/setup/time-issues',
+          '/setup/the-marker',
+        ]
+      },
+      {
+        title: '2. Data',   // required
+        path: '/data/',      // optional, which should be a absolute path.
+        collapsable: true,  // optional, defaults to true
+        sidebarDepth: 2,    // optional, defaults to 1
+        children: [         // order of appearance...
+          '/data/seismic-event-collection',
+          '/data/random-data-generation',
+          '/data/true-vs-pseudo'
+        ]
+      },
+      {
+        title: '3. Tests & Graphs',   // required
+        path: '/tests/',      // optional, which should be a absolute path.
+        collapsable: true,  // optional, defaults to true
+        sidebarDepth: 2,    // optional, defaults to 1
+        children: [         // order of appearance...
+          '/tests/unscaled-overlay',
+          '/tests/unscaled-earthquakes',
+          '/tests/unscaled-php-rand',
+          '/tests/unscaled-php-mtrand',
+          '/tests/unscaled-ms-excel',
+          '/tests/scaled-overlay',
+          '/tests/scaled-month-graphs',
+          '/tests/scaled-marker-graphs',
+          '/tests/scaled-hour-graphs',
+          '/tests/standard-deviations',
+          '/tests/standard-deviation-months',
+          '/tests/standard-deviation-markers',
+          '/tests/standard-deviation-hours'
+        ]
+      },
+      {
+        title: '4. Extension',   // required
+        path: '/extension/',      // optional, collapsible item link
+        collapsable: true,  // optional, defaults to true
+        sidebarDepth: 2,    // optional, defaults to 1
+        children: [         // order of appearance...
+          '/extension/m4-anomaly',
+          '/extension/by-hour',
+          '/extension/by-marker'
+        ]
+      },
+      {
+        title: '5. Supposition',   // required
+        path: '/supposition/',      // optional, collapsible item link
+        collapsable: true,  // optional, defaults to true
+        sidebarDepth: 2,    // optional, defaults to 1
+        children: [         // order of appearance...
+          '/supposition/findings',
+          '/supposition/earth-tide-deformation'
+        ]
+      },
+      {
+        title: 'Support',
+        path: '/support/',      // optional, collapsible item link
+        collapsable: true,  // optional, defaults to true
+        sidebarDepth: 3,    // optional, defaults to 1
+        children: [
+          '/support/faq',
+          '/support/glossary'
+         ]
+      }
+    ],
+    nav: [
+      {text: 'Data', link:'https://github.com/jakeYeager/qw-data-flux'},
+      {text: 'Quake Works', link:'https://quake.works'},
+    ]
+  }
+};
