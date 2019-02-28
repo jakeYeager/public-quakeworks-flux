@@ -2,7 +2,10 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
+    "@vuepress/plugin-clean-urls": "^1.0.0-alpha.40",
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
+    "markdown-it-footnote": "^3.0.1",
     "vuepress": "^1.0.0-alpha.39"
   },
   "scripts": {

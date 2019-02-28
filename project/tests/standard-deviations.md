@@ -1,3 +1,10 @@
+---
+lang: en-US
+title: Narrative - Standard Deviations
+prev: ./scaled-hour-graphs
+next: ./standard-deviation-months
+---
+
 # Narrative: Standard Deviations
 
 To further illustrate the trend disparity and also include the “blue dye” data, a standard deviation analysis was created. The “blue dye” had previously been shown to behave randomly in its trends within the geometric overlay analysis, so could provide useful insight in comparing seismic data to an extreme random entity volume. Even though the “blue dye” result values were higher than other sets, the deviation of those values could show a comparative trait. The standard deviation for every batch was tabled and plotted categorically.

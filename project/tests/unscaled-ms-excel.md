@@ -1,6 +1,8 @@
 ---
 lang: en-US
 title: Unscaled - MS Excel
+prev: ./unscaled-php-mtrand
+next: ./scaled-overlay
 ---
 
 # MS Excel

@@ -1,3 +1,10 @@
+---
+lang: en-US
+title: Unscaled - Earthquakes
+prev: ./unscaled-overlay
+next: ./unscaled-php-rand
+---
+
 # Unscaled: Earthquakes
 From seismic event population.
 

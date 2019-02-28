@@ -1,4 +1,16 @@
 module.exports = {
+  plugins: [
+    '@vuepress/clean-urls',
+    '@vuepress/back-to-top',
+    '@vuepress/google-analytics',
+  ],
+  chainMarkdown (config) {
+    // Add extra markdown-it plugin
+    config
+        .plugin('footnote')
+        .use(require('markdown-it-footnote'))
+  },
+  'ga': 'UA-99759012-14',
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -10,22 +22,23 @@ module.exports = {
   title: 'The Flux', // default page/site title
   description: 'An analysis of the categorical timestamp values of large seismic event populations against equivalent populations of random and pseudo-random data.', // default page meta tag
   themeConfig: {
-    plugins: [ '@vuepress/google-analytics',{'ga': 'UA-99759012-14'}],
     theme: '@vuepress/theme-default',
     lastUpdated: 'Last Updated',
-    displayAllHeaders: true,
+    // displayAllHeaders: true,
     sidebar: [
       {
         title: 'Main',   // required
+        path: '/motivation',      // optional, which should be a absolute path.
         collapsable: true,  // optional, defaults to true
         sidebarDepth: 1,
         children: [
-          'background'
+          'motivation',
+          'quick-start'
         ]
       },
       {
         title: '1. Setup',   // required
-        path: '/setup/',      // optional, which should be a absolute path.
+        path: '/setup/testing-the-test',      // optional, which should be a absolute path.
         collapsable: true,  // optional, defaults to true
         sidebarDepth: 2,    // optional, defaults to 1
         children: [         // order of appearance...
@@ -37,7 +50,7 @@ module.exports = {
       },
       {
         title: '2. Data',   // required
-        path: '/data/',      // optional, which should be a absolute path.
+        path: '/data/seismic-event-collection',      // optional, which should be a absolute path.
         collapsable: true,  // optional, defaults to true
         sidebarDepth: 2,    // optional, defaults to 1
         children: [         // order of appearance...
@@ -48,7 +61,7 @@ module.exports = {
       },
       {
         title: '3. Tests & Graphs',   // required
-        path: '/tests/',      // optional, which should be a absolute path.
+        path: '/tests/unscaled-overlay',      // optional, which should be a absolute path.
         collapsable: true,  // optional, defaults to true
         sidebarDepth: 2,    // optional, defaults to 1
         children: [         // order of appearance...
@@ -69,7 +82,7 @@ module.exports = {
       },
       {
         title: '4. Extension',   // required
-        path: '/extension/',      // optional, collapsible item link
+        path: '/extension/m4-anomaly',      // optional, collapsible item link
         collapsable: true,  // optional, defaults to true
         sidebarDepth: 2,    // optional, defaults to 1
         children: [         // order of appearance...
@@ -79,24 +92,13 @@ module.exports = {
         ]
       },
       {
-        title: '5. Supposition',   // required
-        path: '/supposition/',      // optional, collapsible item link
+        title: '5. Findings',   // required
+        path: '/findings/',      // optional, collapsible item link
         collapsable: true,  // optional, defaults to true
         sidebarDepth: 2,    // optional, defaults to 1
         children: [         // order of appearance...
-          '/supposition/findings',
-          '/supposition/earth-tide-deformation'
+          '/findings/'
         ]
-      },
-      {
-        title: 'Support',
-        path: '/support/',      // optional, collapsible item link
-        collapsable: true,  // optional, defaults to true
-        sidebarDepth: 3,    // optional, defaults to 1
-        children: [
-          '/support/faq',
-          '/support/glossary'
-         ]
       }
     ],
     nav: [

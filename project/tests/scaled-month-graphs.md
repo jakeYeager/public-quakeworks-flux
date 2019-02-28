@@ -1,7 +1,11 @@
 ---
 lang: en-US
 title: Scaled - Months
+prev: ./scaled-overlay
+next: ./scaled-marker-graphs
 ---
+
+# Scaled Months
 
 ### Total Population
 

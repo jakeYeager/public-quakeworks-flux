@@ -1,3 +1,10 @@
+---
+lang: en-US
+title: Seismic Event Collection
+prev: ../setup/the-marker
+next: ./random-data-generation
+---
+
 # Seismic Event Collection
 
 ## Source

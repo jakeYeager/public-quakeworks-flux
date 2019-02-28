@@ -1,6 +1,8 @@
 ---
 lang: en-US
 title: Stdev - Months
+prev: ./standard-deviations
+next: ./standard-deviation-markers
 ---
 
 ### Standard Deviation of Month Possibilities

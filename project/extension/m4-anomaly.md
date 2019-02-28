@@ -1,6 +1,8 @@
 ---
 lang: en-US
 title: M4 Anomaly
+prev: ../tests/standard-deviation-hours
+next: ./by-hour
 ---
 
 # Extension: M4 Anomaly

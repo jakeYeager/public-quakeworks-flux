@@ -1,3 +1,10 @@
+---
+lang: en-US
+title: Testing The Test
+prev: ../quick-start
+next: ./parts-of-time
+---
+
 # Testing The Test
 
 To construct a good test for random distribution through time, the framework for comparison should be evaluated to ensure equal-opportunity for both the real events as well as randomly generated ones. From the earthquake population we will of course use the timestamp, then generate random data to match. The wonderful world of the internet has made available lots of tools to generate random and pseudo-random data, even [random dates!](https://github.com/fzaninotto/Faker#fakerproviderdatetime) Boom. Done. Run it.

@@ -1,7 +1,11 @@
 ---
 lang: en-US
 title: Scaled - Hours
+prev: ./scaled-marker-graphs
+next: ./standard-deviations
 ---
+
+# Scaled Hours
 
 ### Total Population
 

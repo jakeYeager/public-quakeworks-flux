@@ -1,6 +1,8 @@
 ---
 lang: en-US
 title: Stdev - Markers
+prev: ./standard-deviation-months
+next: ./standard-deviation-hours
 ---
 
 ### Standard Deviation of Marker Possibilities

@@ -1,6 +1,8 @@
 ---
 lang: en-US
 title: True vs Pseudo
+prev: ./random-data-generation
+next: ../tests/unscaled-overlay
 ---
 
 # True Random Vs Pseudo-random

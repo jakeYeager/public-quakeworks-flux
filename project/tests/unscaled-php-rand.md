@@ -1,6 +1,8 @@
 ---
 lang: en-US
 title: Unscaled - PHP rand()
+prev: ./unscaled-earthquakes
+next: ./unscaled-php-mtrand
 ---
 
 # PHP rand()

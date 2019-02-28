@@ -1,6 +1,8 @@
 ---
 lang: en-US
 title: Unscaled - PHP mt_rand()
+prev: ./unscaled-php-rand
+next: ./unscaled-ms-excel
 ---
 
 # PHP mt_rand()

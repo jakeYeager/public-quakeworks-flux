@@ -1,3 +1,10 @@
+---
+lang: en-US
+title: Time Issues
+prev: ./parts-of-time
+next: ./the-marker
+---
+
 # Time Issues
 
 Reviewing terms of times might seem trivial, but if it is to be used as an accurate comparative testing framework there are some consistency issues and gotchas that should be identified:

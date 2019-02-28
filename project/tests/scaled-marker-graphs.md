@@ -1,7 +1,11 @@
 ---
 lang: en-US
 title: Scaled - Markers
+prev: ./scaled-month-graphs
+next: ./scaled-hour-graphs
 ---
+
+# Scaled Markers
 
 ### Total Population
 

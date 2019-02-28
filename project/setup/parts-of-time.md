@@ -1,3 +1,10 @@
+---
+lang: en-US
+title: Parts of Time
+prev: ./testing-the-test
+next: ./time-issues
+---
+
 # Parts of Time
 
 What is a categorical time value? Quite simply it is the different temporal terms of a date and a time. Earthquake records are listed and also retrieved from the API with an [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) UTC (or "Zulu") timestamp. Let's look at that:

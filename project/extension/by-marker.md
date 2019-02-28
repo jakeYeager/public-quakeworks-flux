@@ -1,6 +1,8 @@
 ---
 lang: en-US
 title: By Marker
+prev: ./by-hour
+next: ../findings/
 ---
 
 # Extension: By Marker
