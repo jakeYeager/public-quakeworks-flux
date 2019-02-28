@@ -33,7 +33,7 @@ module.exports = {
         sidebarDepth: 1,
         children: [
           'motivation',
-          'quick-start'
+          'overview'
         ]
       }
     ],

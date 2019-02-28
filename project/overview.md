@@ -1,10 +1,10 @@
 ---
 lang: en-US
-title: Quick Start
+title: Overview
 prev: ./motivation
 next: ./setup/testing-the-test
 ---
-# Quick Start
+# Overview
 
 ### Step 1:
 Go to the [USGS website](https://earthquake.usgs.gov/earthquakes/search/) and download all the earthquake between 1940 and 2018 with a magnitude of M4.0 or greater. All of them, from anywhere. You'll need at least 300,000 earthquakes to really see what's going on.
