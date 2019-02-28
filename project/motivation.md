@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Motivation
-next: ./quick-start
+next: ./overview
 ---
 
 ## The Site
