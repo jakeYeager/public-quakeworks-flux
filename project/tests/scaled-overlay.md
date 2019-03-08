@@ -7,5 +7,5 @@ next: ./scaled-month-graphs
 
 # Narrative: Scaled Overlay
 
-To complement the geometric overlay analysis, a simple scaled overlay analysis was constructed by graphing associated batch results together on the same scale. 
+To complement the geometric overlay analysis, a simple graph was constructed using associated batch outputs on the same scale. 
  

@@ -8,10 +8,10 @@ next: ./true-vs-pseudo
 # Random Data Generation
 
 ::: tip Data Repository
-Full documentation as well as the actual CSV data files can be found at the [data repo](https://github.com/jakeYeager/qw-data-flux).
+Extended documentation as well as CSV data files can be found in the associated [data repo](https://github.com/jakeYeager/qw-data-flux).
 :::
 
-Random number sets were generated using commonly available random number generators. Several different generators were used to provide a comparison between random sets, as well as a more robust test against the seismic events.
+Random number sets were generated using commonly available random number generators. Several different generators were used to provide a comparison between the random sets, as well as a more robust test against the seismic events.
 
 ### Characteristics
 

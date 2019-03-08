@@ -33,5 +33,5 @@ Throughout this study all times are in UTC. No local timezones are used unless s
 Each of these terms of _YEAR, MONTH, DAY, HOUR, MINUTE_ and _SECOND_ are integers that reoccur _within a range of integers_ making them potentially testable categorically: months = 1-12, days = 1-31, etc. If date values within one year were tested, a variety of categories could be leverage instead of testing **only** the chance opportunities of ~31,557,600 seconds in a year.
 
 #### Footnotes & References
-[^first]: ISO 8601 format [Wikipedia](https://en.wikipedia.org/wiki/ISO_8601)
-[^second]: Coordinated Universal Timezone [timeanddate.com](https://www.timeanddate.com/time/aboututc.html)
+[^first]: _ISO 8601 format_, [Wikipedia](https://en.wikipedia.org/wiki/ISO_8601)
+[^second]: _Coordinated Universal Timezone_, [timeanddate.com](https://www.timeanddate.com/time/aboututc.html)
