@@ -11,3 +11,4 @@ Public-facing flux project site.
 
 - [Vuepress v1](https://v1.vuepress.vuejs.org/)
 - [markdown-it](https://markdown-it.github.io/)
+- [Emoji Cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet/)

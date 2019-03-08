@@ -28,12 +28,12 @@ module.exports = {
     sidebar: [
       {
         title: 'Main',   // required
-        path: '/motivation',      // optional, which should be a absolute path.
+        path: '/introduction',      // optional, which should be a absolute path.
         collapsable: true,  // optional, defaults to true
         sidebarDepth: 1,
         children: [
-          'motivation',
-          'overview'
+            '/',
+          'introduction',
         ]
       },
       {
@@ -52,7 +52,7 @@ module.exports = {
         title: '2. Data',   // required
         path: '/data/seismic-event-collection',      // optional, which should be a absolute path.
         collapsable: true,  // optional, defaults to true
-        sidebarDepth: 2,    // optional, defaults to 1
+        sidebarDepth: 1,    // optional, defaults to 1
         children: [         // order of appearance...
           '/data/seismic-event-collection',
           '/data/random-data-generation',
@@ -63,7 +63,7 @@ module.exports = {
         title: '3. Tests & Graphs',   // required
         path: '/tests/unscaled-overlay',      // optional, which should be a absolute path.
         collapsable: true,  // optional, defaults to true
-        sidebarDepth: 2,    // optional, defaults to 1
+        sidebarDepth: 1,    // optional, defaults to 1
         children: [         // order of appearance...
           '/tests/unscaled-overlay',
           '/tests/unscaled-earthquakes',
@@ -84,7 +84,7 @@ module.exports = {
         title: '4. Extension',   // required
         path: '/extension/m4-anomaly',      // optional, collapsible item link
         collapsable: true,  // optional, defaults to true
-        sidebarDepth: 2,    // optional, defaults to 1
+        sidebarDepth: 1,    // optional, defaults to 1
         children: [         // order of appearance...
           '/extension/m4-anomaly',
           '/extension/by-hour',

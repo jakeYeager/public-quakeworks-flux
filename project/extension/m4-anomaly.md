@@ -7,11 +7,13 @@ next: ./by-hour
 
 # Extension: M4 Anomaly
 
-In assessing the scaled overlay graphs an argument could be constructed that these results could be skewed internally due to the nature of aftershocks. After a large seismic event a large volume if aftershocks could effect the volume results for a localized period, whose aggregate might effect the high volatility seen in the scaled overlay graphs. To test this argument a graph of the most active years for M4.0-9 event occurrences was created using the “marker” calendar schedule. Peak volumes were identified and an association made to concurrent strong magnitude event (see opposite page).
+In reviewing the scaled graphs an argument could be made that the results could be skewed internally due to aftershocks. After a large seismic event a large volume if aftershocks could effect the volume results for a short-term period, the aggregate of which might influence the high volatility seen in the graphs. To test this argument a graph of the most active years for M4.0-9 events was created using the [marker schedule](../setup/the-marker.md). Peak volumes were identified and an association to concurrent strong magnitude events.
 
-Discussion
+## Discussion: M4 Anomaly
 
-An internal aftershocks skew argument does not hold up under closer inspection as the peak “marker” periods in the M4.0-9 scaled overlay graph were Mk5, Mk6, Mk7, & Mk15. The graph for the proximal large magnitude events does indicate that greater volumes of events occurred during those time “markers”, the volume does not support the volatility seen in the scaled overlay. Mk1 & Mk2 show large volume of localized activity but these volumes do not translate to volatility in the associated M4.0-9 scaled overlay. Within the total time span range of the graph there were a total of 144 large magnitude events with a minimum magnitude to M7.0. Out of these 144 events less than 10% could be seen to be possibly related to a sudden increase in M4.0-9 activity. This suggests that localized aftershocks do not skew the aggregate results seen the overlay graphs.
+Skewing due to short-term aftershocks does not appear happen as the peak marker periods in the [M4 scaled overlay graph](../tests/scaled-marker-graphs.md#m4-sample-population) were Mk5, Mk6, Mk7, & Mk15. The following [graph](#proximal-large-magnitude-events-graph) for the Proximal Large Magnitude Events does indicate that greater spikes in activity occurred during the years of 2003-10, but the volume **per marker** does not support the volatility seen in the [M4 scaled overlay graph](../tests/scaled-marker-graphs.md#m4-sample-population). In the following [graph](#proximal-large-magnitude-events-graph), the periods for Mk1 & Mk2 show large spikes of localized activity, but these volumes do not translate to volatility in the associated [M4 scaled overlay graph](../tests/scaled-marker-graphs.md#m4-sample-population). Within the total year range of 2003-10 there were a total of 144 large magnitude events with a minimum magnitude to M7.0. Out of these 144 events less than 10% could be seen to be possibly related to a sudden increase in M4.0-9 activity. Given this it is unlikely that short-term aftershocks skew the aggregate results.
+
+### Proximal Large Magnitude Events Graph
 
 ![M4 Anomaly](../_media/graphs/mrk-m4-anomaly.svg 'M4 Anomaly')
 
@@ -31,6 +33,6 @@ An internal aftershocks skew argument does not hold up under closer inspection a
 
 |  Magnitude  |    Total   |
 | :---------: | :--------: |
-| M7.0 - 7.9: | 131 events |
-| M8.0 - 8.9: |  11 events |
-| M9.0 - 9.9: |  2 events  |
+| M7.0 - 7.9 | 131 events |
+| M8.0 - 8.9 |  11 events |
+| M9.0 - 9.9 |  2 events  |

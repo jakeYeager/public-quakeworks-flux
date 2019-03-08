@@ -6,15 +6,36 @@ next: ../data/seismic-event-collection
 ---
 
 # The Marker
+“The Marker” method employs a sixteen year division which, not only give a more consistent day segmentation of the year, but also provide a more flexible framework for internal comparison. 
 
-The common Gregorian calendar method divides the year into a twelve “month” year segmentation. Taking `1` day as the base "part" measure, and `365.24` days as the "whole", a division of `365.24 / 12 = 30.43` day allotments. The simplest unification is to have year segments with whole-day allotments, thus the remainder of `0.43 x 12 = 5.16` days per year needs to be merged into the segments. This remainder dictates the quantity of odd-count year segments.
- 
- If we take the same scenario but divide by sixteen parts: `365.24 / 16 = 22.82` day allotments. while sixteen divisions of 365.24 makes 22.82 day allotments requiring fewer divisions with odd day counts. Fourteen division provides the best 365.24 day allotment with 26.08 day allotments. Comparing divisional groups of fourteen (i.e. quarters) could not be categorically done. Sixteen has full internal comparison of divisional groups (i.e. halves, quarters, eights and sixteenths). Finally, by using more categories (sixteen instead of twelve), a more fine-grained insight would be provided for showing random number selection behavior of the algorithms, as well as for the seismic event data.
+## Day Segmentation
+If one year was broken into 16 segments of 23-day created a 368 day-entity framework. To correct the 3 day overage, one segment period was allotted 22 days and another one 21 days. The 21-day block was designated to contain "Leap Day", extending that block to 22 days once every four years. Having only two segment periods having odd day counts improves upon the need for equal opportunity as desired for this investigation.
 
-| Year Division | Day Allotment | Comment                                        |
-| ------------- | ------------- | ---------------------------------------------- |
-| **12**        | 30.43         | poor allotment; good divisional comparison     |
-| **14**        | 26.08         | best allotment; poor divisional comparison     |
-| **16**        | 22.82         | good allotment; best divisional comparison     |
+## Internal Comparative Framework
+The 12 year-sections of months in the Gregorian calendar cannot provide a readily available internal comparison past quarters or (three-month sections). By employing 16 divisions, full internal comparison is available  from the whole to the individual parts: whole, halves, quarters, eighths and sixteenths.
 
-A unique categorical time framework was made based on sixteen division calendar, each division called **marker**. Days were allotted into a marker schedule which was then used to match and categorize event timestamps.
+Also by keying the scheduling of the periods to aligned with the approximate start and/or to contain the occurrences of annual astronomical geometries (solstice & equinox as well as aphelion & perihelion), the calendar could embed another layer of informative time markers.
+
+## Date Schedule
+| ID  |            Date |    Period   |                         Comment                         |
+| --- | --------------: | :---------: | :-----------------------------------------------------: |
+| Mrk1  | Dec 21 - Jan 12 |   23 days   | Solstice[^first] & Perihelion[^second] (both variable) |
+| Mrk2  |  Jan 13 - Feb 4 |   23 days   |                           None                          |
+| Mrk3  |  Feb 5 - Feb 27 |   23 days   |                           None                          |
+| Mrk4  | Feb 28 - Mar 20 | **21 days** |                     Equinox[^first] & Leap Year        |
+| Mrk5  | Mar 21 - Apr 12 |   23 days   |                           None                          |
+| Mrk6  |  Apr 13 - May 5 |   23 days   |                           None                          |
+| Mrk7  |  May 6 - May 28 |   23 days   |                           None                          |
+| Mrk8  | May 29 - Jun 20 |   23 days   |                           None                          |
+| Mrk9  | Jun 21 - Jul 12 | **22 days** |  Solstice[^first] & Aphelion[^second] (both variable)  |
+| Mrk10 |  Jul 13 - Aug 4 |   23 days   |                           None                          |
+| Mrk11 |  Aug 5 - Aug 27 |   23 days   |                           None                          |
+| Mrk12 | Aug 28 - Sep 19 |   23 days   |                           None                          |
+| Mrk13 | Sep 20 - Oct 12 |   23 days   |                     Equinox[^first]                     |
+| Mrk14 |  Oct 13 - Nov 4 |   23 days   |                           None                          |
+| Mrk15 |  Nov 5 - Nov 27 |   23 days   |                           None                          |
+| Mrk16 | Nov 28 - Dec 20 |   23 days   |                           None                          |
+
+#### Footnotes & References
+[^first]: Solstice & equinox [Wikipedia](https://en.wikipedia.org/wiki/Equinox)
+[^second]: Aphelion & perihelion [Wikipedia](https://en.wikipedia.org/wiki/Apsis)
