@@ -12,7 +12,7 @@ features:
 - title: Data
   details: Associated data is provided to review and verify.
 - title: Description
-  details: Descriptions and visualizations of results and test extensions.
+  details: Descriptions and visualizations of results.
 footer: Copyright Jake Yeager © 2018 to present
 ---
 

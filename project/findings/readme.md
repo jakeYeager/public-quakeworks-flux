@@ -15,7 +15,8 @@ lang: en-US
 - A combination of [visual](../tests/unscaled-overlay.md) and [statistical](../tests/standard-deviation-months.md) tests were used to compare the two types of data.
 #### Extensions
 - An extended test was created to determine if possible [aftershock skewing](../extension/m4-anomaly.md) had occurred.
-- Another extended test was created to detail the [regional activity](../extension/by-hour.md) respective to the [global results](../tests/scaled-hour-graphs.md).
+- An extended test was created to detail the [regional activity](../extension/by-hour.md) respective to the [global results](../tests/scaled-hour-graphs.md).
+- An extended [depth test](../extension/by-depth.md) illustrated that the distribution of event depths by time of year.
 
 ## Results
 ### Supported Claims
@@ -23,6 +24,7 @@ lang: en-US
 2) This divergence is specific to the event's recorded **timestamp** of occurrence.
 3) This phenomenon would indicate that **earthquake occurrence is not randomly distributed** through time.
 4) This phenomenon appears to be more prevalent[^first] and fundamental[^second] to seismic event behavior than what is currently described publicly.
+5) This phenomenon is likely to effect both time and depth of events.
 
 ### Unsupported Claims
 

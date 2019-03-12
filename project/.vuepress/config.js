@@ -88,7 +88,7 @@ module.exports = {
         children: [         // order of appearance...
           '/extension/m4-anomaly',
           '/extension/by-hour',
-          '/extension/by-marker'
+          '/extension/by-depth'
         ]
       },
       {
@@ -104,6 +104,7 @@ module.exports = {
     nav: [
       {text: 'Data', link:'https://github.com/jakeYeager/qw-data-flux'},
       {text: 'Quake Works', link:'https://quake.works'},
+      {text: 'USGS Map', link:'https://earthquake.usgs.gov/earthquakes/map/'}
     ]
   }
 };
