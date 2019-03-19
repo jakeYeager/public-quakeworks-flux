@@ -35,16 +35,13 @@ lang: en-US
 ### What Next...
 <p align="center">
     <a href="https://quake.works">
-        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-web.svg" width="120px">
+        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-web.svg" width="120px" alt="button image">
     </a>
     <a href="https://twitter.com/quakeyeager">
-        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-twitter.svg" width="120px">
+        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-twitter.svg" width="120px" alt="button image">
     </a>
     <a href="https://github.com/jakeYeager">
-        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-github.svg" width="120px">
-    </a>
-    <a href="https://paypal.me/quakeyeager?locale.x=en_US">
-        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-paypal.svg" width="120px">
+        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-github.svg" width="120px" alt="button image">
     </a>
 </p>
 

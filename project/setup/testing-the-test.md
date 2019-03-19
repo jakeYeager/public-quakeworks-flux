@@ -1,7 +1,7 @@
 ---
 lang: en-US
 title: Testing The Test
-prev: ../introduction
+prev: ../
 next: ./parts-of-time
 ---
 

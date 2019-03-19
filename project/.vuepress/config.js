@@ -28,12 +28,11 @@ module.exports = {
     sidebar: [
       {
         title: 'Main',   // required
-        path: '/introduction',      // optional, which should be a absolute path.
+        path: '/',      // optional, which should be a absolute path.
         collapsable: true,  // optional, defaults to true
         sidebarDepth: 1,
         children: [
-            '/',
-          'introduction',
+            '/'
         ]
       },
       {
@@ -104,6 +103,7 @@ module.exports = {
     nav: [
       {text: 'Data', link:'https://github.com/jakeYeager/qw-data-flux'},
       {text: 'Quake Works', link:'https://quake.works'},
+      {text:'USGS Search', link:'https://earthquake.usgs.gov/earthquakes/search/'},
       {text: 'USGS Map', link:'https://earthquake.usgs.gov/earthquakes/map/'}
     ]
   }
