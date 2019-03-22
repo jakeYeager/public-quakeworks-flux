@@ -98,6 +98,15 @@ module.exports = {
         children: [         // order of appearance...
           '/findings/'
         ]
+      },
+      {
+        title: '6. Theory',   // required
+        path: '/theory/',      // optional, collapsible item link
+        collapsable: true,  // optional, defaults to true
+        sidebarDepth: 2,    // optional, defaults to 1
+        children: [         // order of appearance...
+          '/theory/'
+        ]
       }
     ],
     nav: [

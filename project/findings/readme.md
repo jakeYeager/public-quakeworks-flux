@@ -4,7 +4,7 @@ lang: en-US
 ---
 
 # Findings
-### Research Review
+## Research Review
 #### Setup
 - A testing approach for analyzing categorical time values was [designed](../setup/testing-the-test.md).
 - Issues regarding the testing of time categories were [identified](../setup/time-issues.md) and [mitigated](../setup/the-marker.md).
@@ -22,31 +22,16 @@ lang: en-US
 ### Supported Claims
 1) There is a phenomenon apparent in these results that naturally occurring seismic event populations **are significantly divergent** when statistically compared to equivalent volumes of randomly generated data.
 2) This divergence is specific to the event's recorded **timestamp** of occurrence.
-3) This phenomenon would indicate that **earthquake occurrence is not randomly distributed** through time.
+3) This phenomenon would indicate that the distribution of earthquakes through time **is not** random (literal). Their ***sequential distribution*** could still be considered random (literal), but the ***temporal distribution*** appears heavily skewed.
 4) This phenomenon appears to be more prevalent[^first] and fundamental[^second] to seismic event behavior than what is currently described publicly.
-5) This phenomenon is likely to effect both time and depth of events.
+5) This phenomenon appears to effect both the temporal (time) *and* spatial (geographic location and depth) characteristics of events.
 
 ### Unsupported Claims
-
 1) That knowledge of this phenomenon can be used to predict earthquakes (I'm not going to even touch this and neither should you :ok_hand:).
-2) That this phenomenon is directly generating earthquakes. It would be more accurate to say that earthquakes are "allowed" rather than "generated". The results herein suggest a period of suppression as well as an associated period of expression. A mechanism is described elsewhere[^third] and related to tidal motions.
+2) That this phenomenon is directly generating earthquakes. It would be more accurate to say that earthquakes are "allowed" rather than "generated". The results herein suggest a period of suppression as well as an associated period of expression. This functional mechanism is described elsewhere[^third] as related to ocean tidal motions.
 
-
-### What Next...
-<p align="center">
-    <a href="https://quake.works">
-        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-web.svg" width="120px" alt="button image">
-    </a>
-    <a href="https://twitter.com/quakeyeager">
-        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-twitter.svg" width="120px" alt="button image">
-    </a>
-    <a href="https://github.com/jakeYeager">
-        <img src="https://craton.sfo2.cdn.digitaloceanspaces.com/media/img/branding/btn-github.svg" width="120px" alt="button image">
-    </a>
-</p>
 
 #### Footnotes & References
-
 [^first]: _"Seismologists have determined that microseismic events are correlated to tidal variations in Central Asia (north of the Himalayas)."_ [Wikipedia](https://en.wikipedia.org/wiki/Earth_tide#Effects)
 [^second]: _"Earthquakes are equally as likely to occur in the morning or the evening. Many studies in the past have shown no significant correlations between the rate of earthquake occurrence and the semi-diurnal tides when using large earthquake catalogs."_ [USGS FAQS](https://www.usgs.gov/faqs/can-position-moon-or-planets-affect-seismicity-are-there-more-earthquakes-morningin-eveningat-a?qt-news_science_products=0#qt-news_science_products)
 [^third]: _"When the confining pressure is lessened, the faults are unclamped and more likely to slip. The increased probability is a factor of ~3 during high tides."_ [USGS FAQS](https://www.usgs.gov/faqs/can-position-moon-or-planets-affect-seismicity-are-there-more-earthquakes-morningin-eveningat-a?qt-news_science_products=0#qt-news_science_products)

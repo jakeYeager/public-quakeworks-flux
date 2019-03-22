@@ -5,6 +5,9 @@ prev: ./standard-deviations
 next: ./standard-deviation-markers
 ---
 
-### Standard Deviation of Month Possibilities
+# Standard Deviation of Month Possibilities
 
-![Month Category](../_media/graphs/stdev-mo-comp.svg 'Months Comparison')
+The standard deviation of aggregate choices between 1-12 per batch/sample size.
+
+---
+<img src="../_media/graphs/stdev-mo-comp.svg" style="width:600px" alt="Month STDEV">

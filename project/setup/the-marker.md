@@ -16,7 +16,9 @@ The 12 year-sections of months in the Gregorian calendar cannot provide internal
 
 By keying the schedule of marker periods to align with the approximate start of, or to contain the occurrences of annual astronomical geometries (solstice/equinox and aphelion/perihelion), the calendar could also embed another layer of timing information.
 
-## Date Schedule
+<img src="../_media/marker/12vs16-hoz.svg" style="width:700px" alt="calendars">
+
+## Marker Date Schedule
 | ID  |            Date |    Period   |                         Comment                         |
 | --- | --------------: | :---------: | :-----------------------------------------------------: |
 | Mrk1  | Dec 21 - Jan 12 |   23 days   | Solstice[^first] & Perihelion[^second] (both variable) |

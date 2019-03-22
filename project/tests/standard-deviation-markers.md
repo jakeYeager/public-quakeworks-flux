@@ -5,6 +5,9 @@ prev: ./standard-deviation-months
 next: ./standard-deviation-hours
 ---
 
-### Standard Deviation of Marker Possibilities
+# Standard Deviation of Marker Possibilities
 
-![Marker Category](../_media/graphs/stdev-mrk-comp.svg 'Markers Comparison')
+The standard deviation of aggregate choices between 1-16 per batch/sample size.
+
+---
+<img src="../_media/graphs/stdev-mrk-comp.svg" style="width:600px" alt="Marker STDEV">

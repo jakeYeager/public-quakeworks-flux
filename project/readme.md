@@ -9,30 +9,27 @@ title: Home
   <img src="/hero-logo.png" alt="logo">
 </p>
 
-
 ## Subject
-
 ***Are earthquakes randomly distributed through time?***
 
 The purpose of this site is to document the comparison between earthquake timestamps and equivalent volumes of randomly generated data.
 
 ## Author Affiliation
-
 Jake Yeager is unaffiliated with any institution, and this research was conducted as an independent personal project.
  
 ## Copyright
 
 ### Jake Yeager
-
 The contents of this site is copyright to Jake Yeager © 2018 to present; all rights reserved where applicable by law.
 
 ### United States Geological Survey
-
 The information used from the USGS API service was obtained freely under their [Public Release of Information policy](https://www.usgs.gov/information-policies-and-instructions/public-release-information). Copyright for this information is under the [Public Domain](https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits).
 
 ## Disclaimer
+The USGS has an [information quality mandate](https://www.usgs.gov/information-policies-and-instructions/information-quality) but also offers [no warranty](https://www.doi.gov/disclaimer) expressed or implied. As the core calculations and ideas expressed herein are based on the data obtained from the USGS, **no warranty or guarantee of accuracy or fitness** is expressed or implied by Jake Yeager.
 
-The USGS has an [information quality mandate](https://www.usgs.gov/information-policies-and-instructions/information-quality) but also offers [no warranty](https://www.doi.gov/disclaimer) expressed or implied. As the core calculations and ideas expressed herein are based on the data obtained from the USGS, **no warranty to accuracy or fitness** is expressed or implied by Jake Yeager.
+## Anonymous User Tracking
+This site uses common session tracking software. User session identity is stripped to bare minimum (no IPs, no demographics, etc). Only aggregate user sessions are utilized.
 
 ---
 
