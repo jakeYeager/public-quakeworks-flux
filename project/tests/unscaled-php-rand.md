@@ -9,14 +9,14 @@ next: ./unscaled-php-mtrand
 
 _Reference examples only from "Set #1" of the five sets, for brevity..._
 
-#### Month Category
+## Month Category
 
-![Month Sparkline](../_media/sparklines/r-mo-s1.jpg 'Set #1 Unscaled Month Overlay')
+![Month Sparkline](../_media/sparklines/r-mo-s1.jpg)
 
-#### Marker Category
+## Marker Category
 
-![Marker Sparkline](../_media/sparklines/r-mrk-s1.jpg 'Set #1 Unscaled Marker Overlay')
+![Marker Sparkline](../_media/sparklines/r-mrk-s1.jpg)
 
-#### Hour Category
+## Hour Category
 
-![Hour Sparkline](../_media/sparklines/r-hr-s1.jpg 'Set #1 Unscaled Hour Overlay')
+![Hour Sparkline](../_media/sparklines/r-hr-s1.jpg)

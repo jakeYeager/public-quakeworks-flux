@@ -7,25 +7,26 @@ next: ./scaled-hour-graphs
 
 # Scaled Markers
 
-### Total Population
+## Total Population
 
-![Marker Category](../_media/graphs/scl-mrk-all.svg 'Markers Scaled: Total Population')
-***
-
-### M4 Sample Population
-
-![Marker Category](../_media/graphs/scl-mrk-m4s.svg 'Markers Scaled: M4 Sample')
+![Marker Category](../_media/graphs/scl-mrk-all.svg)
 
 ***
 
-### M5 Sample Population
+## M4 Sample Population
 
-![Marker Category](../_media/graphs/scl-mrk-m5s.svg 'Markers Scaled: M5 Sample')
+![Marker Category](../_media/graphs/scl-mrk-m4s.svg)
 
 ***
 
-### M6 Sample Population
+## M5 Sample Population
 
-![Marker Category](../_media/graphs/scl-mrk-m6s.svg 'Markers Scaled: M6 Sample')
+![Marker Category](../_media/graphs/scl-mrk-m5s.svg)
+
+***
+
+## M6 Sample Population
+
+![Marker Category](../_media/graphs/scl-mrk-m6s.svg)
 
 ***

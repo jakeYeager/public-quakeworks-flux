@@ -7,19 +7,20 @@ next: ./standard-deviations
 
 # Scaled Hours
 
-### Total Population
+## Total Population
 
-![Hour Category](../_media/graphs/scl-hr-all.svg 'Hours Scaled: Total Population')
-***
-
-### M4 Sample Population
-
-![Hour Category](../_media/graphs/scl-hr-m4s.svg 'Hours Scaled: M4 Sample')
+![Hour Category](../_media/graphs/scl-hr-all.svg)
 
 ***
 
-### M5 Sample Population
+## M4 Sample Population
 
-![Hour Category](../_media/graphs/scl-hr-m5s.svg 'Hours Scaled: M5 Sample')
+![Hour Category](../_media/graphs/scl-hr-m4s.svg)
+
+***
+
+## M5 Sample Population
+
+![Hour Category](../_media/graphs/scl-hr-m5s.svg)
 
 ***

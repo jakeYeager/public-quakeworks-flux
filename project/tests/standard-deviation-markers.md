@@ -10,4 +10,5 @@ next: ./standard-deviation-hours
 The standard deviation of aggregate choices between 1-16 per batch/sample size.
 
 ---
+
 <img src="../_media/graphs/stdev-mrk-comp.svg" style="width:600px" alt="Marker STDEV">

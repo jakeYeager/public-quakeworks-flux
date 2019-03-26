@@ -10,4 +10,5 @@ next: ./standard-deviation-markers
 The standard deviation of aggregate choices between 1-12 per batch/sample size.
 
 ---
+
 <img src="../_media/graphs/stdev-mo-comp.svg" style="width:600px" alt="Month STDEV">
