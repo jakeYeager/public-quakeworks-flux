@@ -6,19 +6,23 @@ next: ../data/seismic-event-collection
 ---
 
 # The Marker
+
 “The Marker” method employs a sixteen year division which not only give a more consistent day segmentation of the year, but also provide a more flexible framework for internal comparison. 
 
 ## Day Segmentation
+
 If one year was broken into 16 segments of 23-day increments, this would create a 368 day-entity framework. To correct the 3 day overage, one segment period was reduced to an allotted 22 days and another one 21 days. The 21-day block was designated to contain "Leap Day", extending that block to 22 days once every four years. Having only two segment periods having odd day-counts improves upon the need for equal opportunity as desired for this investigation.
 
 ## Internal Comparative Framework
+
 The 12 year-sections of months in the Gregorian calendar cannot provide internal comparison past quarters (three-month sections). By employing 16 divisions, full internal comparison is available  from the whole to the individual parts: whole, halves, quarters, eighths and sixteenths.
 
 By keying the schedule of marker periods to align with the approximate start of, or to contain the occurrences of annual astronomical geometries (solstice/equinox and aphelion/perihelion), the calendar could also embed another layer of timing information.
 
-<img src="../_media/marker/12vs16-hoz.svg" style="width:700px" alt="calendars">
+![Calendars](../_media/marker/12vs16-hoz.svg)
 
 ## Marker Date Schedule
+
 | ID  |            Date |    Period   |                         Comment                         |
 | --- | --------------: | :---------: | :-----------------------------------------------------: |
 | Mrk1  | Dec 21 - Jan 12 |   23 days   | Solstice[^first] & Perihelion[^second] (both variable) |
@@ -39,5 +43,6 @@ By keying the schedule of marker periods to align with the approximate start of,
 | Mrk16 | Nov 28 - Dec 20 |   23 days   |                           None                          |
 
 #### Footnotes & References
+
 [^first]: _Solstice & equinox_, [Wikipedia](https://en.wikipedia.org/wiki/Equinox)
 [^second]: _Aphelion & perihelion_, [Wikipedia](https://en.wikipedia.org/wiki/Apsis)
