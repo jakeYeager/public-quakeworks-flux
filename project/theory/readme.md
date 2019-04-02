@@ -33,7 +33,7 @@ The following image shows an exaggerated hypothetical shape that would be enforc
 
 ---
 
-If we look again at the activity of [earthquakes by hour](../extension/by-hour) in a defined seismically active region, this model of a standing-wave Earth tide is supported. When the Earth's surface is opposite to the Sun there is an increase in aggregate earthquake activity. Conversely, when the same area is Sun-side, there is a corresponding decrease in activity.
+If we look again at the activity of [earthquakes by hour](../extension/by-hour.md) in a defined seismically active region, this model of a standing-wave Earth tide is supported. When the Earth's surface is opposite to the Sun there is an increase in aggregate earthquake activity. Conversely, when the same area is Sun-side, there is a corresponding decrease in activity.
 
 <img src="../_media/plots/sun-earth-1700-utc.svg" style="width:600px" alt="Activity 1700 UTC">
 
@@ -69,7 +69,7 @@ Six months later, during the northern hemisphere Summer, the relationship betwee
 
 ## Seasonal Distribution Anomaly
 
-The transitory position of the solar-static Earth tide could also provide an explanatory mechanism for why *and when* earthquake activity is so variable through the year. Looking at [the marker](../setup/the-marker) graph for the [entire analyzed population](../tests/scaled-marker-graphs), the trend behavior shows two similar maximums and minimums. Though they are not precisely spaced four markers apart, as would be expected for a perfect match-up with annual solstice and equinox positions, maximum and minimum periods do alternate. This oscillation of activity indicates, in aggregate, that a cycle of build-up-and-release in the energy contained within tectonic fault-systems exists. The regular oscillation for the activity, as well as the proximity of the activity trend extremes being concurrent to Sun-Earth alignments, points to earthquake event **timing** as being non-random and induced or influenced by the relationship between the angular position of Sun-Earth gravity centers and it's effect on the Earth's mass surface deformations.
+The transitory position of the solar-static Earth tide could also provide an explanatory mechanism for why *and when* earthquake activity is so variable through the year. Looking at [the marker](../setup/the-marker.md) graph for the [entire analyzed population](../tests/scaled-marker-graphs.md), the trend behavior shows two similar maximums and minimums. Though they are not precisely spaced four markers apart, as would be expected for a perfect match-up with annual solstice and equinox positions, maximum and minimum periods do alternate. This oscillation of activity indicates, in aggregate, that a cycle of build-up-and-release in the energy contained within tectonic fault-systems exists. The regular oscillation for the activity, as well as the proximity of the activity trend extremes being concurrent to Sun-Earth alignments, points to earthquake event **timing** as being non-random and induced or influenced by the relationship between the angular position of Sun-Earth gravity centers and it's effect on the Earth's mass surface deformations.
 
 ![Total population by marker](../_media/graphs/scl-mrk-all.svg)
 
