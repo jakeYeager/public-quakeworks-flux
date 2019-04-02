@@ -7,7 +7,7 @@ next: ../data/seismic-event-collection
 
 # The Marker
 
-“The Marker” method employs a sixteen year division which not only give a more consistent day segmentation of the year, but also provide a more flexible framework for internal comparison. 
+“The Marker” method employs a sixteen year division which not only give a more consistent day segmentation of the year, but also provide a more flexible framework for internal comparison.
 
 ## Day Segmentation
 

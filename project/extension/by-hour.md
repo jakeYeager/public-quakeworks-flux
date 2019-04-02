@@ -33,7 +33,6 @@ The following graph is a complete view of the above hourly volumes with no clipp
 
 ![Hours: full scale](../_media/graphs/comp-full-scale-hr.svg)
 
-
 As can be seen, the dramatic red trend line seen in the full population hour graph is still evident, but muted compared to the total volume. The trend of volumes of the location breakouts are still dynamic, even showing their full comparison, as they are pulled from a smaller sample base than the full population graph.
 
 Even though the dramatic detail is muted the differences still exist. Looking at the full population by marker, as described on the [Scaled Marker page](../tests/scaled-marker-graphs), the difference is quite clear in the graph:

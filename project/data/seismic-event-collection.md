@@ -55,11 +55,11 @@ After reviewing the available data it was identified that prior to 1973, events 
 
 #### M4 example
 
-![M4 1973 Cut-in](../_media/graphs/single-yr-m4s.svg 'M4 events cut-in rate')
+![M4 1973 Cut-in](../_media/graphs/single-yr-m4s.svg)
 
 #### M5 example
 
-![M5 1973 Cut-in](../_media/graphs/single-yr-m5s.svg 'M5 events cut-in rate')
+![M5 1973 Cut-in](../_media/graphs/single-yr-m5s.svg)
 
 #### Footnotes & References
 

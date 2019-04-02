@@ -25,7 +25,7 @@ Next, let's consider the benefit of UTC: looking at this singular event, the tim
 If all earthquakes were recorded in local time, a considerable amount of calculation would be required in comparing events on a global scale. By using a universal timezone, all event times are unified.
 
 ::: tip Earthquake Timezone = UTC
-Throughout this study all times are in UTC. No local timezones are used unless specified.
+Throughout this study all times are in UTC. No local time zones are used unless specified.
 :::
 
 ### Categorical Ranges

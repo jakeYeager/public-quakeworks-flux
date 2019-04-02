@@ -25,7 +25,7 @@ _Every earthquake and associated random number has equal opportunity to the test
 
 _Every earthquake and associated random number has equal opportunity to the tested range of DAY?_
 
-**FALSE:** The day value has a month assigment, and the quantity varies. There are fewer opportunities within the time scope for an earthquake to have a day value of "31" (as there are only 7 months with 31 days), as opposed to "28".
+**FALSE:** The day value has a month assignment, and the quantity varies. There are fewer opportunities within the time scope for an earthquake to have a day value of "31" (as there are only 7 months with 31 days), as opposed to "28".
 
 ### _HOUR_ Issues
 
