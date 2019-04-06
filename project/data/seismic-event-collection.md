@@ -49,7 +49,7 @@ To test semi-arbitrary samples of the dataset, entities were grouped by reducing
 
 There ***are*** differences in measuring magnitude[^second][^third]. As this study is focused on evaluating timestamps, **no** adjustments were made to verify and assign an event to a specific scale. Demarcating by whole integer was done purely for convenient segmenting of the population.
 
-### The 1973 Data Cut-
+### The 1973 Data Cut-In
 
 After reviewing the available data it was identified that prior to 1973, events with a magnitude of <M5.9 were not available in the volumes and geographical locations that existed after January 1973. As this information becomes suddenly available in the dataset, it is **assumed** that this data was not able to be recorded previously (for some reason) and will not be available in the future. Even though the specific goal for creating the data population was collecting all events within a continuous time period, the scattered events of M4.0-5.9 that exist _prior_ to Jan 1, 1973 **are included** in the dataset. This missing-data feature must be remembered during [_testing_](../setup/time-issues.md#year-issues) the comparisons of _YEAR_ and handled accordingly.
 
