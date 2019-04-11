@@ -23,7 +23,7 @@ module.exports = {
   description: 'An analysis of the categorical timestamp values of large seismic event populations against equivalent populations of random and pseudo-random data.', // default page meta tag
   themeConfig: {
     theme: '@vuepress/theme-default',
-    lastUpdated: 'Last Updated',
+    lastUpdated: 'Page Updated',
     // displayAllHeaders: true,
     sidebar: [
       {
