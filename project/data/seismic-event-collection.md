@@ -13,12 +13,12 @@ Primary goal for creating the seismic event population was creating the largest 
 
 - **Location agnostic** (latitude and longitude values were set to their respective extremes)
 - **Exclusively earthquakes** (no other seismic event types were allowed, i.e. quarry blasts, nuclear explosions)
-- **Allowed magnitude of only >M3.9**
+- **Allowed magnitude of only ≥M4.0**
 - **Time period between January 1, 1940 and December 31, 2018** (1940-01-01T00:00:00Z to 2018-12-31T23:59:59Z)
 
 ## Source
 
-Seismic record data was obtained from the USGS web portal[^first].
+Seismic record data was obtained from the *Advanced National Seismic System Comprehensive Earthquake Catalog* (ANSS ComCat) web portal[^first].
 
 ## Population Samples
 
@@ -45,7 +45,11 @@ To test semi-arbitrary samples of the dataset, entities were grouped by reducing
 
 ## Caveats & Assumptions
 
-### Magnitude designation
+### Missing Data
+
+[ANSS Documentation](https://earthquake.usgs.gov/data/comcat/) states that "historic regional seismic network catalogs have not yet been fully loaded", but the [old version](http://www.quake.geo.berkeley.edu/anss/catalog-search.html) of the catalog states that as of Jan 1 2013, the ANSS ComCat under the USGS domain supersede. It is **assumed** by the author that there is no large volume of data outstanding that might significantly skew the population set. Obvious data voids are identified where possible and mitigated (see **1973 Data Cut-in** below).
+
+### Magnitude Designation
 
 There ***are*** differences in measuring magnitude[^second][^third]. As this study is focused on evaluating timestamps, **no** adjustments were made to verify and assign an event to a specific scale. Demarcating by whole integer was done purely for convenient segmenting of the population.
 
@@ -63,6 +67,6 @@ After reviewing the available data it was identified that prior to 1973, events 
 
 #### Footnotes & References
 
-[^first]: Federation of Digital Seismograph Networks (FDSN) web service (version 1.0), [USGS](https://earthquake.usgs.gov/fdsnws/event/1/). 
+[^first]: Data collected via API from the Federation of Digital Seismograph Networks (FDSN) [web service (version 1.0)](https://earthquake.usgs.gov/fdsnws/event/1/). [ANSS Documentation](https://earthquake.usgs.gov/data/comcat/).
 [^second]: _Glossary term_ [USGS](https://earthquake.usgs.gov/learn/glossary/?term=magnitude)
 [^third]: [Michigan Tech Univ.](http://www.geo.mtu.edu/UPSeis/intensity.html)
