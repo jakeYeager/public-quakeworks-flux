@@ -17,7 +17,7 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', sizes:'180x180', href: `/icons/apple-touch-icon.png` }],
     ['link', { rel: 'icon', type:'image/png', sizes:'32x32', href: `/icons/favicon-32x32.png` }],
     ['link', { rel: 'icon', type:'image/png', sizes:'16x16', href: `/icons/favicon-16x16.png` }],
-    ['link', { rel: 'manifest', href: '/icons/site.manifest' }]
+    ['link', { rel: 'manifest', href: '/icons/site.webmanifest' }]
   ],
   title: 'The Flux', // default page/site title
   description: 'An analysis of the categorical timestamp values of large seismic event populations against equivalent populations of random and pseudo-random data.', // default page meta tag

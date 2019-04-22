@@ -25,20 +25,32 @@ If the same testing method was made on a region 12 hours later, it can be seen t
 
 When the Sun is on the opposite side of the Earth from the sampled area, in both cases, there is a corresponding increase in aggregate activity. And, approximately 12 hours later, there is a matching decrease aggregate activity.
 
-## Graph Check
+---
 
-So far the information in the comparative graphs have provided good visual feedback in reviewing the data, but it is possible for scaled graphs to obscure the complete picture. This is due to graph showing only a clipped section of the data results, exaggerates a specific detailed portion. For example the above graphics either only show the isolated trend values (see the location-specific breakouts), or show a conglomerate of trends where the graph value is clipped to an upper range of the total volume and is not complete down to the bottom of '0'.
+# Southeast Asia Comparison
 
-The following graph is a complete view of the above hourly volumes with no clipping:
+## Real vs. Random
 
-![Hours: full scale](../_media/graphs/comp-full-scale-hr.svg)
+The above examples could be said to be less than robust enough to suggest any correlation or causality! To show this, the hour of occurrence for all the earthquake events from 1940 to 2018 (6,279 events) were totaled. Four batches of pseudo-random chance occurrences (6,300 chances per batch) between 0-23 were made and tabled together with the earthquake data for comparison.
 
-As can be seen, the dramatic red trend line seen in the full population hour graph is still evident, but muted compared to the total volume. The trend of volumes of the location breakouts are still dynamic, even showing their full comparison, as they are pulled from a smaller sample base than the full population graph.
+<img src="../_media/plots/hrs-Vrand.svg" style="width:600px" alt="Java vs random">
 
-Even though the dramatic detail is muted the differences still exist. Looking at the full population by marker, as described on the [Scaled Marker page](../tests/scaled-marker-graphs), the difference is quite clear in the graph:
+As can be seen, the random aggregates can vary as well as create internal patterns, thus making the ragged line seen in [Alignment At Minimum Hour](#alignment-at-minimum-hour) less than a robust comparative element. Statistically the trend does dip at the appropriate time but it is marginal.
 
-![Marker Category](../_media/graphs/scl-mrk-all.svg)
+If instead we compare five distinct regional profiles in a similar way, by extracting and aggregating the hour value for the same time period, we can see more clearly the trend is mimicked *across regional profiles*. This highly suggests that uniform force is acting upon the events of the _entire_ region. It would be unreasonable to think that this is an isolated force unique to Southeast Asian earthquakes.
 
-If the earthquake trend is isolated and expanded to it maximum range, this trend too will become more muted. Even so, comparing it to a similar batch from the pseudo-random examples still shows that the variability is still more apparent in the earthquake population than the pseudo-random population:
+<img src="../_media/plots/hrs-seAsia.svg" style="width:600px" alt="Distinct Southeast Asia profiles compared">
 
-![Markers: full scale](../_media/graphs/comp-full-scale-mrk.svg)
+To remain skeptical these samples could be tested further by arbitrarily splitting them by month into "summer" and "winter" subdivisions. As can be seen in the following charts, this subdivision does not eliminate the day-low night-high activity trend.
+
+<img src="../_media/plots/hrs-summer.svg" style="width:600px" alt="Summer events comparison">
+
+*Event population constrained to only a specific month value for counted entity: April, May, June, July, August or September.*
+
+---
+
+<img src="../_media/plots/hrs-winter.svg" style="width:600px" alt="Winter events comparison">
+
+*Event population constrained to only a specific month value for counted entity: October, November, December, January, February or March.*
+
+---
