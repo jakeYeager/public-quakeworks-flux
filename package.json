@@ -2,11 +2,11 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
+    "@vuepress/plugin-back-to-top": "^1.0.2",
     "@vuepress/plugin-clean-urls": "^1.0.0-alpha.40",
-    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
-    "markdown-it-footnote": "^3.0.1",
-    "vuepress": "^1.0.0-alpha.44"
+    "@vuepress/plugin-google-analytics": "^1.0.2",
+    "markdown-it-footnote": "^3.0.2",
+    "vuepress": "^1.0.2"
   },
   "scripts": {
     "dev": "vuepress dev project",
